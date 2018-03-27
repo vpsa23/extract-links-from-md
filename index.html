@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--LINKS-->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Atma|Encode+Sans+Condensed" rel="stylesheet">
+  <title>Extract Links</title>
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <div class="nav-wrapper black accent-1">
+        <h1>Extract Links</h1>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
+          <h4 id="subTitle">Ingresa tu texto Markdown</h4>
+          <textarea name="Agrega tu texto" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+      
+      <div class="row">
+        <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5">
+          <button class="btn">Aprieta aquí!</button>
+        </div>
+      </div>
+
+        <div class="row">
+          <div id="newExtract"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!--SCRIPTS-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  <script src="node_modules/markdown-extract-links/src/reto.js"></script>
+
+</body>
+</html>
