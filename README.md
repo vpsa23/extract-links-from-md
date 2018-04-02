@@ -48,8 +48,8 @@ Una librería es un archivo o conjunto de archivos que se utilizan para facilita
   {"href":"https://es.wikipedia.org/wiki/Romanticismo","text":"[románticos]"}
 ]'
 
-# Desarrollado para
-## [Laboratoria](http://laboratoria.la/)
+## Desarrollado para
+[Laboratoria](http://www.laboratoria.la/)
 
 
 
