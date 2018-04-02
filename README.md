@@ -1,7 +1,6 @@
 # Extract Links
 ![Diseño / Sketching](extractLinks.PNG)
 
-
 # Librería en Javascript
 Una librería es un archivo o conjunto de archivos que se utilizan para facilitar la programación.
 
